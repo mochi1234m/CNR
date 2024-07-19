@@ -6,18 +6,24 @@
     <meta charset="ANSI">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CNR</title>
+
+    <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+
 </head>
 <body>
-    <!-- ページ本体 -->
-    <h1 id="pgtitle">CNR test</h1>
-    <div class="inputinside">
-        <label class="inputdesc" for="chunirec_username"> chunirec ユーザーネーム </label>
-        <input type="text" id="chunirec_username" class="finp">
-        <div class="buttoncentral">
-            <button class="generalbtn" id="generate" onclick="refresh()">設定を反映する</button>
-        </div>
+    <div class="container">
+        <ul class="spreadsheets">
+            <li class="spreadsheets--item js-base">
+                <p class="spreadsheets--title"></p>
+                <p class="spreadsheets--peak"></p>
+                <p class="spreadsheets--notes"></p>
+                <p class="spreadsheets--frick"></p>
+                <p class="spreadsheets--rhythm"></p>
+                <p class="spreadsheets--power"></p>
+                <p class="spreadsheets--soflan"></p>
+            </li>
+        </ul>
     </div>
 </body><!-- ページ本体はここまで -->
 </html>
