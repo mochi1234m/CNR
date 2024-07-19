@@ -19,7 +19,7 @@ fetch(apiUrl)
         userList.innerHTML = ''; // ローディングメッセージを削除
         data.forEach(user => {
             const listItem = document.createElement('li1');
-            listItem.innerHTML = `曲名: ${user.title} <br> PEAK: ${user.peak}│ NOTES: ${user.noets}│FRICK: ${user.frick}│ RHYTHM: ${user.rhythm}│POWER: ${user.power}│SOF-LAN: ${user.soflan}`;
+            listItem.innerHTML = `曲名: ${user.title} <br> PEAK: ${user.peak}│ NOTES: ${user.noets}│FRICK: ${user.frick}│ RHYTHM: ${user.rhythm}│POWER: ${user.power}│SOF-LAN: ${user.soflan} <br>`;
             userList.appendChild(listItem);
         });
     })
